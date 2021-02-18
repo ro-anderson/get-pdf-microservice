@@ -1,0 +1,7 @@
+version: "3"
+services:
+  app:
+    container_name: invoice-digitizer
+    build: .
+    ports:
+      - 5000:5000
